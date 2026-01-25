@@ -1,8 +1,31 @@
+body
+{
+    font-size:30px;
+    animation-name:"opacitys";
+    animation-delay: 1s;
+    animation-duration: 1.4s;
+    opacity:0;
+    animation-fill-mode: both; 
+}
+
 
 f1
 {
     font-family:"44dots";
-    font-size:50px;
+    font-size:100px;
+}
+
+f2
+{
+    font-family:"44dots";
+    font-size:20px;
+}
+
+
+.bdr1
+{
+    color:black;
+    border-top:solid 10px black;
 }
 
 
@@ -11,8 +34,20 @@ f1
     font-size:1px;
 }
 
+
 @font-face
 {
     font-family: "44dots";
     src: url(MtFiles/4x4kanafont.ttf);
+}
+
+@keyframes opacitys
+{
+    0%{
+        opacity:0;
+        
+    }
+    100%{
+        opacity:1;
+    }
 }
