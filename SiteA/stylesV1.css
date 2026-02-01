@@ -1,0 +1,30 @@
+body{
+    font-family:"F-main";
+    font-size:20px;
+}
+
+f1{
+    font-family: "F-44dots";
+    font-size: 60px;
+
+}
+
+
+
+
+
+
+
+
+@font-face{
+    font-family:"F-main";
+    src:url(MtFiles/ZenKurenaido-Regular.ttf)
+
+}
+
+@font-face{
+    font-family:"F-44dots";
+    src:url(MtFiles/4x4kanafont.ttf)
+}
+
+
