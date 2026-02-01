@@ -15,6 +15,7 @@ f1
     font-size:100px;
 }
 
+
 f2
 {
     font-family:"44dots";
@@ -67,6 +68,7 @@ f2
     animation-duration: 1.4s;
     animation-fill-mode: both; 
 }
+
 .hi
 {
     opacity:0;
