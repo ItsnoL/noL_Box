@@ -24,6 +24,7 @@ f2
 }
 
 
+
 .bdr1
 {
     color:black;
@@ -33,84 +34,53 @@ f2
 
 .smallest
 {
-    font-size:1px;
+    font-size:10px;
+}
+
+.nih
+{
+    opacity:0;
+    animation-name: "opacitys";
+    animation-fill-mode: both;
+    animation-duration: 1.4s;
 }
 
 .bo
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 1s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .ku
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 1.2s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .no
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 1.4s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .ni
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 1.6s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
-
 .hi
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 1.8s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .ri
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 2s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .zu
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 2.2s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .mu
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 2.4s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
 .wo
 {
-    opacity:0;
-    animation-name:"opacitys";
     animation-delay: 2.6s;
-    animation-duration: 1.4s;
-    animation-fill-mode: both; 
 }
-
-/*上記雑な為、後日タグごとにまとめる*/
 
 
 @font-face
