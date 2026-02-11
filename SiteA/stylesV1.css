@@ -44,3 +44,8 @@ hr{
 }
 
 
+/*↓ レイアウト関係 ↓*/
+
+.allcont{
+    display: flex;
+}
