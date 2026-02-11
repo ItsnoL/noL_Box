@@ -9,11 +9,20 @@ body
 }
 
 
-f1
+
+
+
+header
 {
     font-family:"44dots";
     font-size:100px;
 }
+
+footer
+{
+    text-align: center;
+}
+
 
 
 f2
@@ -23,13 +32,6 @@ f2
     animation-fill-mode: both; 
 }
 
-
-
-.bdr1
-{
-    color:black;
-    border-top:solid 10px black;
-}
 
 
 .smallest
@@ -48,6 +50,7 @@ f2
 .bo
 {
     animation-delay: 1s;
+
 }
 .ku
 {
