@@ -10,8 +10,6 @@ body
 
 
 
-
-
 header
 {
     font-family:"44dots";
@@ -25,11 +23,20 @@ footer
 
 
 
+
+
+
 f2
 {
     font-family:"44dots";
     font-size:20px;
     animation-fill-mode: both; 
+    
+}
+
+.noth{
+    text-decoration: none;
+    color:black;
 }
 
 
