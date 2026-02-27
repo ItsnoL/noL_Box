@@ -2,16 +2,24 @@ body{
 
     font-family:"F-main";
     font-size:20px;
+
+    animation-name: "opacitys";
+    animation-delay: 1s;
+    animation-duration: 0.2s;
+    opacity:0;
+    animation-fill-mode: both; 
 }
 
 header{
     font-family:"F-44dots";
-    font-size:60px;
-    text-align: center;
+    font-size:80px;
+    text-align: right;
     
     background-image: url(MtFiles/noL_1.png);
     background-repeat: no-repeat;
     background-size:contain;
+
+    flex-grow: 2;
 
 }
 
@@ -24,11 +32,42 @@ f1{
 }
 
 hr{
-    border-bottom: solid 5px black;
+    border-bottom: solid 2px black;
 }
 
 
+.Left
+{
+    display:flex;
+    flex-direction: row;
+}
+.Right
+{
+    flex-grow: 1;
+}
 
+/*.Info
+{
+    width: auto; height: auto;
+}
+
+.log{
+    border: solid 1px black;
+}
+
+.links{
+}*/
+
+@keyframes opacitys
+{
+    0%{
+        opacity:0;
+        
+    }
+    100%{
+        opacity:1;
+    }
+}
 
 
 
@@ -45,7 +84,24 @@ hr{
 
 
 /*↓ レイアウト関係 ↓*/
+/*@media screen and (max-width:959px)
+{
+    
+header{
 
-.allcont{
-    display: flex;
+
+
+}
+}*/
+@media screen and (max-width:480px)
+{
+
+    header
+    {
+        font-size:30px;
+        text-align: left;
+        background-image: none;
+
+        
+    }
 }

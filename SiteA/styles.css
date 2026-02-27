@@ -18,6 +18,7 @@ header
 
 footer
 {
+    font-family: "F-main";
     text-align: center;
 }
 
@@ -29,7 +30,7 @@ footer
 f2
 {
     font-family:"44dots";
-    font-size:20px;
+    font-size:15px;
     animation-fill-mode: both; 
     
 }
@@ -97,6 +98,12 @@ f2
 {
     font-family: "44dots";
     src: url(MtFiles/4x4kanafont.ttf);
+}
+
+@font-face{
+    font-family:"F-main";
+    src:url(MtFiles/ZenKurenaido-Regular.ttf)
+
 }
 
 @keyframes opacitys
