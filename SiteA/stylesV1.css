@@ -84,22 +84,23 @@ hr{
 
 
 /*↓ レイアウト関係 ↓*/
-/*@media screen and (max-width:959px)
+@media screen and (max-width:1500px)
 {
     
-header{
+    header
+    {
+        font-size:80px;
+        background-image: none;
 
-
-
+    }
 }
-}*/
 @media screen and (max-width:480px)
 {
 
     header
     {
         font-size:30px;
-        text-align: left;
+        text-align: center;
         background-image: none;
 
         
