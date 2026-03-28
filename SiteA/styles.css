@@ -119,3 +119,22 @@ f2
         opacity:1;
     }
 }
+
+@media screen and (max-width:1500px)
+{
+    
+    header
+    {
+        text-align: center;
+
+    }
+}
+@media screen and (max-width:480px)
+{
+
+    header
+    {
+        text-align: center;
+        font-size: 120px;
+    }
+}
