@@ -1,11 +1,14 @@
 body
 {
     font-size:30px;
+    color:white;
     animation-name:"opacitys";
     animation-delay: 1s;
     animation-duration: 1.4s;
     opacity:0;
     animation-fill-mode: both; 
+
+    background-color: black;
 }
 
 
@@ -114,5 +117,24 @@ f2
     }
     100%{
         opacity:1;
+    }
+}
+
+@media screen and (max-width:1500px)
+{
+    
+    header
+    {
+        text-align: center;
+
+    }
+}
+@media screen and (max-width:480px)
+{
+
+    header
+    {
+        text-align: center;
+        font-size: 120px;
     }
 }
